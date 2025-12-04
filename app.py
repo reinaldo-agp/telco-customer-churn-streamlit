@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 # Asumiendo que tu DataFrame se llama 'df' y ya está cargado
 # df = pd.read_csv('telco_customer_churn.csv')
 ## url = 'https://raw.githubusercontent.com/Sarthakrshetty/Telco-Customer-Churn-Analysis/refs/heads/main/customer%20churn.csv'
-df = pd.read_csv(r'C:\Users\REINALDO\Videos\Proyecto\customer_churn.csv')
-
+## df = pd.read_csv(r'C:\Users\REINALDO\Videos\Proyecto\customer_churn.csv')
+df = pd.read_csv('data/customer_churn.csv')
 # --- 1. Análisis de la Variable Objetivo (Churn) ---
 
 print("--- 1. Análisis del Desbalance (Variable 'Churn') ---")
